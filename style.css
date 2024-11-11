@@ -15,6 +15,65 @@ body{
     width: 100%;
     height: 58px;
 }
+#input_group {
+    display: flex;
+    align-items: center;
+    background-color: #F9F9F9;
+    border-radius: 5px;
+}
+#input_group input{
+    all: unset;
+    padding: 0.75rem;
+    width: 100%;
+}
+#input_group button{
+    background-color: #23a6f0;
+    border:none;
+    padding: 0px 0.5rem;
+    color: #FFFFFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 72px;
+    height: 28px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+footer .rodape{
+    display: flex;
+}
+footer .rodape h5{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 115px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #252B42;
+}
+footer .rodape ul{
+    width: 25%;
+}
+.rodape li{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    width: 142px;
+    height: 24px;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    color:#737373;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+footer{
+    background-color: #FFFFFF;
+}
 .navi-container ul{
     display: flex;
     justify-content: space-between;
@@ -44,6 +103,45 @@ body{
     color: #FFFFFF;
     
 }
+
+.capa-btn-container {
+    width: 100%;
+    height: 100%;
+    display:flex;
+    align-items:center;
+}
+
+.capa {
+    position: relative;
+    width: 1292px;
+    height: 619px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    background: linear-gradient(45deg, #96E9FB, #ABECD6);
+}
+
+.montserrat  {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+
+.capa-iten
+{
+    margin: 40px 0px 40px 0px;
+}
+.btn-capa {
+    font-weight: 700; 
+    font-size: 24px; 
+    padding: 15px 40px 15px 40px; 
+    border-radius: 5px; 
+    background-color: #23A6F0; 
+    color: #ffffff;
+}
+.capa img {
+    position: absolute;
+    right: -70px;
+}
+
 #featured{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
@@ -137,11 +235,13 @@ a{
 .week{
     display: grid;
     margin-top: 100px;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: auto;
+    margin-right: auto;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr);
     height: 630px;
+    width: 1135px;
+    height: 572px;
     grid-gap: 10px;
 }
 button {
@@ -156,6 +256,8 @@ button {
 .explore-button {
     border: rgba(255, 255, 255, 1) 1px solid;
     padding: 15px 40px 15px 40px;
+    border-radius: 5px;
+    font-weight: 700;
     background-color: none;
     background: none;
     color: white;
@@ -166,13 +268,14 @@ button {
     align-items: center;
     position: absolute;
     background-color: #2D8BC0BF;
-    ;
     bottom: 0px;
     width: 80%;
     height: 35%;
     min-height: 180px;
 }
-
+.rodape a:hover{
+    background-color: black;
+}
 .navbar a:hover{
     background-color: rgb(0, 0, 2);
 }
